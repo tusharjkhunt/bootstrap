@@ -1,0 +1,53 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+}
+
+p{
+    font-family: 'Rokkitt', 'Alice', serif;
+    font-size: 18px;
+}
+
+.img location{
+    align-content: center;
+    border: 1.0px;
+    border-color: black;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #E88E0C;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #FF0000;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #D4F1FF;
+    padding: 20px;
+}
+
+#map {
+    height: 500px;
+    width: 900px;
+}
+.footer:hover{
+    color: #E8430c
+}
